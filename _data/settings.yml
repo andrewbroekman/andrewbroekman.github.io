@@ -1,0 +1,143 @@
+#-------------------------------
+# Site Settings
+title: Andrew Broekman
+logo: #'/images/logo.png'
+description: Personal blogging website of Andrew Broekman
+color_scheme: light # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    # - title: 'Home'
+    #   url: '/'
+    # - title: 'Blog'
+    #   url: '/blog/'
+    # - title: 'Authors'
+    #   url: '/authors/'
+    # - title: 'Videos'
+    #   url: '/videos/'
+    # - title: 'Pages'
+    #   submenu:
+    #   - url: '/about/'
+    #     title: 'About'
+    #   - url: '/contact/'
+    #     title: 'Contact'
+    #   - url: '/elements/'
+    #     title: 'Elements'
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero__title: Insights, Inspiration, and Innovation.
+  hero__description: It is a common tendency to confine oneself within perceived limitations. However, it is essential to recognize that your potential knows no bounds. Your mind holds the key to unlocking extraordinary achievements. Trust in your abilities, for your aspirations are within reach once you set your mind to them.
+  hero__image: # You can add hero image. For example '/images/06.jpg'
+
+
+#-------------------------------
+# Author Global Settings
+author:
+  author__name: Andrew Broekman
+  author__bio: Hi, my name is Andrew, a passionate philomath and technology enthusiast based in the Southern tip of Africa. With a diverse background as Head of Digital Solutions at OIM Consulting and a current Masters student in Computer Science at the University of Pretoria, I combine my expertise and love for teaching to deliver a transformative learning experience, bridging theory with practical implementation.
+  author__avatar: /images/Andrew.JPG
+
+
+#-------------------------------
+# Blog Section Settings
+blog__settings:
+  enable: false
+  blog__title: Latest Posts
+  blog__description:
+
+
+#-------------------------------
+# Videos Section Settings
+videos__settings:
+  enable: false
+  videos__title: Latest Videos
+  videos__description:
+
+
+#-------------------------------
+# Tag Section Settings
+tag__settings:
+  enable: false
+  tag: travel # To display the tag section, specify your favorite tag.
+
+
+#-------------------------------
+# Author Section Settings
+author__section:
+  enable: false
+  author__section__title: Hello, my name is Andrew. I'm a technophile and philomath.
+  author__section__description: Hi, my name is Andrew, a passionate philomath and technology enthusiast based in the Southern tip of Africa. With a diverse background as Head of Digital Solutions at OIM Consulting and a current Masters student in Computer Science at the University of Pretoria, I combine my expertise and love for teaching to deliver a transformative learning experience, bridging theory with practical implementation.
+  aurhor__section__button__text: More About Me
+  aurhor__section__button__link: /about
+  author__section__big__image: /images/100.jpg
+  author__section__small__image: /images/101.jpg
+
+
+#-------------------------------
+# Newsletter Settings
+mailchimp__settings:
+  enable: false
+  mailchimp__title: Get interesting news
+  mailchimp__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
+  mailchimp__identifier: frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+  mailchimp__input__text: Your email address
+  mailchimp__button__text: Subscribe
+  mailchimp__background__image: /images/subscribe-bg.jpg
+
+
+#-------------------------------
+# Footer Settings
+footer__description: Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+
+
+# Social Links
+social:
+- {icon: "linkedin", link: "https://linkedin.com/in/andrewbroekman"}
+- {icon: "twitter", link: "https://twitter.com/andrewbroekman"}
+- {icon: "facebook", link: "https://facebook.com/andrewbroekman"}
+# - {icon: "codepen", link: "https://codepen.io"}
+# - {icon: "pinterest", link: "https://pinterest.com"}
+# - {icon: "vimeo", link: "https://vimeo.com"}
+
+# Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+# Footer Navigation
+footer__menu__settings:
+  menu__items:
+    # - title: 'Home'
+    #   url: '/'
+    # - title: 'About'
+    #   url: '/about/'
+    # - title: 'Contact'
+    #   url: '/contact/'
+    # - title: 'Elements'
+    #   url: '/elements/'
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: # Add your form_id
+  description: # Add a description of your form
+
+# NOTE
+# Mria theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: andrewbroekman # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
